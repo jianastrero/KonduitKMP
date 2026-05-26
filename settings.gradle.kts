@@ -1,5 +1,4 @@
 rootProject.name = "KonduitKMP"
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
     repositories {
@@ -28,5 +27,6 @@ dependencyResolutionManagement {
     }
 }
 
-include(":androidApp")
-include(":shared")
+include(":konduit-kmp")
+include(":example:shared")
+include(":example:androidApp")
