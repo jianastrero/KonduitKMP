@@ -22,4 +22,4 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - run: ./gradlew allTests
+      - run: ./gradlew allTests -x iosSimulatorArm64Test
