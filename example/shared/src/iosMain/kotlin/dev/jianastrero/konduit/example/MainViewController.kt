@@ -1,4 +1,4 @@
-package dev.jianastrero.konduit_kmp.example
+package dev.jianastrero.konduit.example
 
 import androidx.compose.ui.window.ComposeUIViewController
 

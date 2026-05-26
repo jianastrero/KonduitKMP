@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "dev.jianastrero"
-version = "1.0.0"
+version = "0.1.0"
 
 kotlin {
     // Enable iOS targets
@@ -24,12 +24,18 @@ kotlin {
     }
 
     androidLibrary {
-        namespace = "dev.jianastrero.konduit_kmp"
+        namespace = "dev.jianastrero.konduit"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 
         compilerOptions {
             jvmTarget = JvmTarget.JVM_11
+        }
+
+        lint {
+            abortOnError = true
+            warningsAsErrors = true
+            htmlReport = true
         }
     }
 
@@ -45,3 +51,4 @@ kotlin {
         }
     }
 }
+

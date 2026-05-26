@@ -1,4 +1,4 @@
-package dev.jianastrero.konduit_kmp
+package dev.jianastrero.konduit
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
