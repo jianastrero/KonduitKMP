@@ -1,4 +1,4 @@
-package dev.jianastrero.konduit_kmp.example
+package dev.jianastrero.konduit.example
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -14,7 +14,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import dev.jianastrero.konduit_kmp.KonduitGreeting
+import dev.jianastrero.konduit.KonduitGreeting
 import org.jetbrains.compose.resources.painterResource
 
 import konduitkmp.example.shared.generated.resources.Res

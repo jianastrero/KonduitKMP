@@ -1,5 +1,4 @@
-package dev.jianastrero.konduit_kmp.example
-
+package dev.jianastrero.konduit.example
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

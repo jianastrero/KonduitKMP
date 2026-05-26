@@ -1,9 +1,9 @@
-package dev.jianastrero.konduit_kmp.example
+package dev.jianastrero.konduit.example
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class SharedCommonTest {
+class SharedLogicAndroidHostTest {
 
     @Test
     fun example() {

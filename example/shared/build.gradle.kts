@@ -21,7 +21,7 @@ kotlin {
     }
 
     androidLibrary {
-        namespace = "dev.jianastrero.konduit_kmp.example.shared"
+        namespace = "dev.jianastrero.konduit.example.shared"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 

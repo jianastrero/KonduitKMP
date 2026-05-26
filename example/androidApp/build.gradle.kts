@@ -21,11 +21,11 @@ dependencies {
 }
 
 android {
-    namespace = "dev.jianastrero.konduit_kmp.example"
+    namespace = "dev.jianastrero.konduit.example"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "dev.jianastrero.konduit_kmp.example"
+        applicationId = "dev.jianastrero.konduit.example"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
