@@ -28,5 +28,7 @@ dependencyResolutionManagement {
 }
 
 include(":journey-kmp")
+include(":journey-kmp-annotations")
+include(":journey-kmp-ksp")
 include(":example:shared")
 include(":example:androidApp")
