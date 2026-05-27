@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0D38F8424A66013ED6CF22A2 /* KonduitKMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonduitKMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D38F8424A66013ED6CF22A2 /* JourneyKMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JourneyKMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,7 +59,7 @@
 		660F0029DEF6B339C16B6D15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D38F8424A66013ED6CF22A2 /* KonduitKMP.app */,
+				0D38F8424A66013ED6CF22A2 /* JourneyKMP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosApp;
-			productReference = 0D38F8424A66013ED6CF22A2 /* KonduitKMP.app */;
+			productReference = 0D38F8424A66013ED6CF22A2 /* JourneyKMP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

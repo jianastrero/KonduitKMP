@@ -1,4 +1,4 @@
-rootProject.name = "KonduitKMP"
+rootProject.name = "JourneyKMP"
 
 pluginManagement {
     repositories {
@@ -27,6 +27,6 @@ dependencyResolutionManagement {
     }
 }
 
-include(":konduit-kmp")
+include(":journey-kmp")
 include(":example:shared")
 include(":example:androidApp")
