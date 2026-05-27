@@ -6,12 +6,13 @@ plugins {
     alias(libs.plugins.composeMultiplatform) apply false
     alias(libs.plugins.composeCompiler) apply false
     alias(libs.plugins.kotlinMultiplatform) apply false
+    alias(libs.plugins.ksp) apply false
     alias(libs.plugins.detekt)
     alias(libs.plugins.binaryCompatibilityValidator)
 }
 
 apiValidation {
-    ignoredProjects += listOf("example", "shared", "androidApp")
+    ignoredProjects += listOf("example", "shared", "androidApp", "journey-kmp-ksp", "journey-kmp-annotations")
 }
 
 subprojects {
@@ -21,6 +22,13 @@ subprojects {
         config.setFrom("$rootDir/config/detekt/detekt.yml")
         buildUponDefaultConfig = true
         autoCorrect = true
+        // Exclude KSP-generated sources — only analyze hand-written code
+        source.setFrom(
+            "src/commonMain/kotlin",
+            "src/androidMain/kotlin",
+            "src/iosMain/kotlin",
+            "src/main/kotlin"
+        )
     }
 
     dependencies {
